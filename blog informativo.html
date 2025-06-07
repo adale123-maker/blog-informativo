@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🌟 Programar con el corazón</title>
+  <link rel="stylesheet" href="blog informativo.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>🌟 Programar con el corazón: el primer paso</h1>
+    <div id="reloj">🕒 Cargando hora mágica...</div>
+    <p class="meta">🗓️ Fecha: 26 de mayo de 2025 &nbsp;&nbsp; | &nbsp;&nbsp; 📂 Tema: Motivación y comienzo</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section item1">
+      <h2>✨ Lo que quiero compartir hoy</h2>
+      <p>Hoy empieza algo más grande que una simple línea de código. Hoy nace una semilla: la de una chica valiente que
+        decide entrar en el mundo de la programación sin saberlo todo, pero con el corazón lleno de ganas.</p>
+      <p>Este blog no es solo un espacio para hablar de lenguajes, etiquetas, errores y funciones. Es un refugio y un
+        impulso. Es un lugar donde cada letra escrita es un acto de amor propio y de lucha contra lo que alguna vez
+        pensamos que seria imposible para nosotras mismas.</p>
+      <p>Porque programar no es solo para los genios. Es para las curiosas, las creativas, las que se equivocan y
+        vuelven a
+        intentar. Es para las que alguna vez pensaron que no eran suficientes y ahora se atreven a aprender algo nuevo.
+      </p>
+      <p>Este blog es para nosotras, las futuras programadoras con alma, con fuerza, con sueños.</p>
+    </div>
+
+    <div class="section item2">
+      <h2>💡 Algo que aprendí hoy</h2>
+      <ul>
+        <li>Aprendí que programar no es saberlo todo, sino atreverse a escribir aunque no salga perfecto.</li>
+        <li>Aprendí que GitHub no es solo para expertos, es también para principiantes con ganas de compartir su
+          proceso.</li>
+        <li>Aprendí que puedo equivocarme 10 veces y aún así tener el derecho a seguir.</li>
+        <li>Y sobre todo, aprendí que si mi corazón late fuerte por aprender, eso es lo único que necesito para empezar.
+        </li>
+      </ul>
+    </div>
+
+    <div class="section item3">
+      <h2>🌱 Cómo me sentí hoy programando</h2>
+      <p>Tuve miedo. Pensé que no iba a entender nada.</p>
+      <p>Vi palabras raras como <strong>README.md</strong>, <strong>commit</strong>, <strong>repositorio</strong>, y
+        sentí que era demasiado. Pero después de respirar hondo y probar, vi que era como aprender a escribir de nuevo:
+        paso a paso, con errores y con ternura.</p>
+      <p>Hoy me sentí poderosa por animarme. Y me prometí a mí misma que este blog no va a ser perfecto, pero va a ser
+        mío. Y eso lo hace valioso.</p>
+    </div>
+
+    <div class="section item4">
+      <h2> 🌟Frase del día</h2>
+      <blockquote>"No hace falta que seas experta. Solo hace falta que no te rindas."</blockquote>
+    </div>
+
+    <div class="section item5">
+      <h2>👩‍💻 Orgullosamente parte de Chicas Programadoras </h2>
+      <p>Ser parte de este club es más que aprender. Es animarme, crecer, equivocarme sin miedo y celebrar cada pequeño
+        logro junto a otras chicas que también están brillando con su propia luz.</p>
+      <p>En <strong>Chicas Programadoras</strong> descubrí que programar también puede ser un acto de amor propio 💖.
+      </p>
+      <img src="logo-animado.jpg" alt="Logo Chicas Programadoras Club" class="logo-animado">
+    </div>
+
+    <div class="section item6">
+      <h2>❤️ De una Chica Digitaler para muchas más</h2>
+      <p>Este no es solo un mensaje para mí, sino para todas las chicas que alguna vez sintieron que programar no era lo
+        suyo.</p>
+      <p>A vos, que hoy te animás a escribir tu primera línea de código: no te rindas. Equivocarse es parte del camino.
+      </p>
+      <p>Programar no es solo teclear, es construir sueños. Y lo estamos haciendo juntas.</p>
+      <p>Desde este pequeño rincón, te digo: tu voz, tus ideas y tu magia digital importan. ¡El futuro también se
+        escribe con nosotras!</p>
+    </div>
+
+  </div>
+
+  <footer>
+    Hecho con mucho amor y cariño por Dani – 2025
+  </footer>
+  <script>
+  function actualizarReloj() {
+    const ahora = new Date();
+    let horas = ahora.getHours();
+    let minutos = ahora.getMinutes();
+    let segundos = ahora.getSeconds();
+
+    // Agrega ceros si los números son menores a 10  
+    if (horas < 10) horas = "0" + horas;
+    if (minutos < 10) minutos = "0" + minutos;
+    if (segundos < 10) segundos = "0" + segundos;
+
+    const reloj = document.getElementById("reloj");
+    reloj.textContent = `🕒 Hora Mística: ${horas}:${minutos}:${segundos}`;
+  }
+
+  // Actualizar cada segundo
+  setInterval(actualizarReloj, 1000);
+  actualizarReloj(); // Mostrarlo al cargar
+</script>
+</body>
+</html>
