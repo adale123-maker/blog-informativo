@@ -3,7 +3,7 @@ Este proyecto esta siendo creado por motivos de aprendizaje.
 Incluye
 <ul>
     <li>HTML</li>
-    <li>CSS/li>
+    <li>CSS </li>
     <li>JavaScript</li>
 </ul>
 
